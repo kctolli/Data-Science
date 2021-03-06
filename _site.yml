@@ -68,12 +68,14 @@ navbar:
           href: https://jakevdp.github.io/PythonDataScienceHandbook/ 
   right:  
     - text: "ePortfolio"
-      href: ../index.html
+      href: https://kctolli.github.io/
 
 output_dir: '.'
 
 output: 
   html_document:
-    css: [../site_libs/styles.css, ../site_libs/site.css]
     highlight: tango
     theme: readable
+    fig_height: 6
+    fig_width: 12
+    fig_align: 'center'  
