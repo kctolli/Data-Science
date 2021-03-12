@@ -2,20 +2,12 @@
 title: "Data Science"
 ---
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/kctolli/kctolli.github.io/master/site_libs/site.css">
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 125%;
-}
-</style>
-
 ```{r include=FALSE}
 source("https://raw.githubusercontent.com/kctolli/kctolli.github.io/master/site_libs/script.R")
 load_libraries()
+
+pander('<link rel="stylesheet" href="https://raw.githubusercontent.com/kctolli/kctolli.github.io/master/site_libs/site.css">')
+pander('<style>img {display: block; margin-left: auto; margin-right: auto; width: 125%;}</style>')
 ```
 
 ```{r main}
