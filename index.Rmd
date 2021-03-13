@@ -14,7 +14,7 @@ load_libraries()
 #pic {display:none;padding-left:20px;} 
 </style>
 
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide('pic')">
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide('pic')" align="center">
 <img src="https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg" alt="Data Science Image" class="img"></a></span>
 <h4 id="pic">Interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge 
 and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.</h4></div>
