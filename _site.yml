@@ -74,6 +74,7 @@ output_dir: '.'
 
 output: 
   html_document:
+    css: [https://raw.githubusercontent.com/kctolli/kctolli.github.io/master/site_libs/site.css]
     highlight: tango
     theme: readable
     fig_height: 6
