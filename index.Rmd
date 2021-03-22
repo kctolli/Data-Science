@@ -5,9 +5,8 @@ title: "Data Science"
 ```{r include=FALSE}
 source("https://github.com/kctolli/kctolli.github.io/raw/master/site_libs/site.R")
 load_libraries()
+showhide()
 ```
-
-<script>function showhide(id) {var e = document.getElementById(id); e.style.display = (e.style.display == 'block') ? 'none' : 'block';}</script>
 
 <style>
 .img {display: block; margin-left: auto; margin-right: auto; width: 125%; align: center; border-radius: 8px;}
