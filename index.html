@@ -44,7 +44,6 @@
 
 
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/kctolli/kctolli.github.io/master/site_libs/site.css" type="text/css" />
 
 
 
@@ -361,13 +360,52 @@ $(document).ready(function () {
 </div>
 
 
+<script> function showhide(id) {
+    var e = document.getElementById(id);
+    document.getElementById(id).style.display = (document.getElementById(id).style.display == "block") ? "none" : "block";
+  }</script>
 <style>
-.img {display: block; margin-left: auto; margin-right: auto; width: 125%; align: center; border-radius: 8px;}
-#pic {display:none;padding-left:20px;} 
+/*
+Site Styles
+*/
+
+a {color: blue;}
+ul {text-align: left;}
+
+.info {font-size: 80%; font-style: italic; font-family: "Arial";}
+
+body {background-color: white; color: black; font-family: "Helvetica";}
+footer{clear:both; margin: auto;}
+.dark-mode {background-color: black; color: white;}
+
+hr{border-top: 1px solid black;}
+.dark-mode hr {border-top: 1px solid white;}
+
+.navbar{background-color: white;}
+.dark-mode .navbar{background-color: black;}
+
+.tocify{background-color: white; color: black; font-family: "Times";}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: blue;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;   
+  font-family: "Georgia";
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.dark-mode .btn{background-color: black;}
+.btn:hover {background-color: blue; color: white;}
 </style>
+<style>.img {display: block; margin-left: auto; margin-right: auto; width: 125%; align: center; border-radius: 8px;}</style>
 <div style="padding-left:0px;">
 <span class="tooltipr"><a href="javascript:showhide('pic')" align="center"> <img src="https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg" alt="Data Science Image" class="img"></a></span>
-<h4 id="pic">
+<h4 id="pic" style="display:none;padding-left:20px;">
 Interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.
 </h4>
 </div>
