@@ -4,7 +4,6 @@ title: "Data Science"
 
 ```{r include=FALSE}
 source("https://github.com/kctolli/kctolli.github.io/raw/master/site_libs/site.R")
-load_libraries()
 ```
 
 ```{r}
