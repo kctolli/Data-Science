@@ -1,0 +1,12 @@
+[submodule "MATH325"]
+	path = MATH325
+	url = https://github.com/kctolli/MATH325
+[submodule "MATH335"]
+	path = MATH335
+	url = https://github.com/kctolli/MATH335
+[submodule "CSE150"]
+	path = CSE150
+	url = https://github.com/kctolli/CSE150
+[submodule "COVID-19"]
+	path = COVID-19
+	url = https://github.com/kctolli/COVID-19
