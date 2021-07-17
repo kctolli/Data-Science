@@ -49,7 +49,7 @@ navbar:
       menu:
         - text: "Personal Work"
         - text: "Final Project"
-          href: ./Machine-Learning/Individual_Assignment.html
+          href: https://kctolli.github.io/CSE450/Individual_Assignment.html
         - text: "---------------"  
         - text: "Course Material"
         - text: "Website"
